@@ -1,5 +1,5 @@
 /*
-  csgo_osx64.c - runner for csgo
+  csgo_run.c - runner for csgo
 
   Copyright (C) 2022 kotleni
   This program is free software: you can redistribute it and/or modify
