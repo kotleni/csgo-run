@@ -21,13 +21,6 @@
   #define LAUNCHER_PATH "bin/linux64/launcher_client.so"
 #endif
 
-#ifndef true
-  #define true 1
-#endif
-#ifndef false
-  #define false 0
-#endif
-
 int main(int argc, char *argv[]) {
   return 0;
   long (*LauncherMain)(unsigned int, long);
@@ -37,14 +30,14 @@ int main(int argc, char *argv[]) {
   if(!dl) {
     char* err = dlerror();
     printf("Failed to load the launcher (%s)\n", err);
-    while(true);
+    while(1);
   }
 
   // get launchermain function
   LauncherMain = (long (*)(unsigned int, long))dlsym(dl, "LauncherMain");
   if(!LauncherMain) {
     puts("Failed to load the launcher entry proc");
-    while(true);
+    while(1);
   }
 
   // invoke launchermain
