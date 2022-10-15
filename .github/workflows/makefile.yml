@@ -7,7 +7,7 @@ on:
     branches: [ "master" ]
 
 jobs:
-  build:
+  build_linux:
     runs-on: ubuntu-latest
 
     steps:
@@ -20,4 +20,20 @@ jobs:
       with:
         name: csgo_linux64
         path: ./csgo_linux64
+        
+  build_osx:
+    runs-on: macos-12
+
+    steps:
+    - uses: actions/checkout@v3
+      
+    - name: Build
+      run: make osx
+    - name: Upload
+      uses: actions/upload-artifact@v3.1.0
+      with:
+        name: csgo_osx64
+        path: ./csgo_osx64
+    
+      
         
