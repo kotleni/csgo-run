@@ -15,11 +15,18 @@
 #include <stdio.h>
 #include <dlfcn.h>
 
+#if defined(__APPLE__)
+  #define LAUNCHER_PATH "bin/osx64/launcher.dylib"
+#elif defined(__linux__)
+  #define LAUNCHER_PATH "bin/linux64/launcher_client.so"
+#endif
+
 int main(int argc, char *argv[]) {
+  return 0;
   long (*LauncherMain)(unsigned int, long);
 
   // load lib
-  void* dl = dlopen("bin/osx64/launcher.dylib", 2);
+  void* dl = dlopen(LAUNCHER_PATH, 2);
   if(!dl) {
     char* err = dlerror();
     printf("Failed to load the launcher (%s)\n", err);
