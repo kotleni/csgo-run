@@ -21,6 +21,13 @@
   #define LAUNCHER_PATH "bin/linux64/launcher_client.so"
 #endif
 
+#ifndef true
+  #define true 1
+#endif
+#ifndef false
+  #define false 0
+#endif
+
 int main(int argc, char *argv[]) {
   return 0;
   long (*LauncherMain)(unsigned int, long);
