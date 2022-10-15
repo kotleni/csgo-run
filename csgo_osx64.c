@@ -23,14 +23,14 @@ int main(int argc, char *argv[]) {
   if(!dl) {
     char* err = dlerror();
     printf("Failed to load the launcher (%s)\n", err);
-    while(1);
+    while(true);
   }
 
   // get launchermain function
   LauncherMain = (long (*)(unsigned int, long))dlsym(dl, "LauncherMain");
   if(!LauncherMain) {
     puts("Failed to load the launcher entry proc");
-    while(1);
+    while(true);
   }
 
   // invoke launchermain
