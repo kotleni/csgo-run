@@ -14,11 +14,11 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <dlfcn.h>
 #include <pthread.h>
 #include <unistd.h>
 #include <stdbool.h>
 #include <string.h>
+#include <dlfcn.h>
 
 #if defined(__APPLE__)
   #include <malloc/malloc.h>
