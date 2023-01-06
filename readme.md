@@ -10,7 +10,7 @@ Support only osx-x64, osx-arm64 (via rosetta2) and linux-x64<br>
 ### Tested on
 | OS | Works? | Description |
 | ------------- | ------------- | ----------- |
-| MacOS Ventura 13.2 for M1 (2020)  | ✅ | Works great. Delay for injections - 70 |
+| MacOS Ventura 13.2 for M1 (2020)  | ✅ | Works great. Recommended delay for injections - 70 secs |
 | Linux |  | Not tested, but compiles. Should work. |
 | Windows | | Not works. Uses a different starting algorithm. |
 
