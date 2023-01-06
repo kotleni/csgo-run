@@ -5,6 +5,7 @@
 ```bash
 xcode-select --install
 git clone https://github.com/kotleni/csgo-run
+cd csgo-run
 ```
 4. Start building
 for apple cpu:
@@ -14,4 +15,12 @@ for apple cpu:
 5. Done
 
 ## Linux
-TODO
+1. Open terminal
+2. Execute this commands in terminal one by one
+```
+xcode-select --install
+git clone https://github.com/kotleni/csgo-run
+cd csgo-run
+```
+3. Start building ```make linux```
+4. Done
