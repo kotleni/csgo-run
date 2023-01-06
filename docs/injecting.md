@@ -11,7 +11,7 @@
 10. Done
 
 <br>
-** Don't forget to replace <your lib file name> with your cheat file name. 
+** Don't forget to replace your lib file name. 
 
 ## Linux
 TODO
