@@ -1,7 +1,9 @@
 [![Makefile CI](https://github.com/kotleni-reverse/csgo-run/actions/workflows/makefile.yml/badge.svg)](https://github.com/kotleni-reverse/csgo-run/actions/workflows/makefile.yml)
+
+<b>Attention! This project was developed for educational purposes. Don't use it to inject cheats online.<br>I take no responsibility for possible VAC bans.</b>
+
 ## Custom implementation of CSGO runner
 Support only osx-x64, osx-arm64 (via rosetta2) and linux-x64<br>
-<b>Attention! This project was developed for educational purposes. Don't use it to inject cheats online.<br>I take no responsibility for possible VAC bans.</b>
 
 ### Features
 * Fully open-source
