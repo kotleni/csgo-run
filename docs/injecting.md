@@ -6,7 +6,7 @@
 5. Put your cheat to csgo game directory
 6. Open csgo page in steam library
 7. Select properties in settings menu (Settings -> Properties)
-8. Enter text to "Launch options", "-inj <your lib file name> -inj 120"
+8. Enter text to "Launch options", "-inj your_lib_file_name -inj 120"
 9. Launch the game and wait some time after game starting
 10. Done
 
@@ -21,7 +21,7 @@
 5. Put your cheat to csgo game directory
 6. Open csgo page in steam library
 7. Select properties in settings menu (Settings -> Properties)
-8. Enter text to "Launch options", "-inj <your lib file name> -inj 120"
+8. Enter text to "Launch options", "-inj your_lib_file_name -inj 120"
 9. Launch the game and wait some time after game starting
 10. Done
 
