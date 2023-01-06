@@ -14,11 +14,10 @@ for apple cpu:
 ```arch -x86_64 make osx```
 5. Done
 
-## Linux
+## Linux (Ubuntu)
 1. Open terminal
 2. Execute this commands in terminal one by one
-```
-xcode-select --install
+```apt install gcc
 git clone https://github.com/kotleni/csgo-run
 cd csgo-run
 ```
