@@ -8,7 +8,8 @@ Support only osx-x64 and linux-x64<br>
 * Zero dependencies
 
 ## Installing
-Just replace runner file (csgo_linux64 or csgo_osx64) in CSGO root dir
+Just replace runner file (csgo_linux64 or csgo_osx64) in CSGO root dir.
+Allow installation of programs from third-party developers.
 
 ## Launch options
 Injecting lib: `-inj <path> -injdelay <secs>` (see this <a href="https://youtu.be/NVNAeQIqQIo">video</a> for detail)
