@@ -11,7 +11,7 @@ cd csgo-run
 for apple cpu:
 ```arch -x86_64 make osx```
 <br>for intel cpu:
-```arch -x86_64 make osx```
+```make osx```
 5. Done
 
 ## Ubuntu Linux
