@@ -1,4 +1,3 @@
-<br><br>
 <i>Attention! This project was developed for educational purposes. Don't use it to inject cheats online.<br>I take no responsibility for possible VAC bans.</i>
 
 ## Custom implementation of CSGO runner
