@@ -12,8 +12,8 @@ Support only osx-x64, osx-arm64 (via rosetta2) and linux-x64<br>
 ### Tested on
 | OS | Works? | Description |
 | ------------- | ------------- | ----------- |
-| MacOS Ventura 13.2 for M1 (2020)  | Yes | Works great. Recommended delay for injections - 70 secs |
-| Linux | Unknown | Not tested, but compiles. Should work. |
+| MacOS Ventura 13.2 for M1 (2020) | Yes | Works great |
+| Arch Linux x64 | Yes | Works great |
 | Windows | No | Not works. Uses a different starting algorithm. See <a href="https://github.com/kotleni/csgo-run/issues/3">#3</a> |
 
 ### Docs
