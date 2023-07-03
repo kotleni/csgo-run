@@ -14,7 +14,7 @@ for apple cpu:
 ```arch -x86_64 make osx```
 5. Done
 
-## Linux (Ubuntu)
+## Ubuntu Linux
 1. Open terminal
 2. Execute this commands in terminal one by one
 ```apt install gcc make
@@ -24,7 +24,7 @@ cd csgo-run
 3. Start building ```make linux```
 4. Done
 
-## Linux (Arch)
+## Arch Linux
 1. Open terminal
 2. Execute this commands in terminal one by one
 ```pacman -Sy gcc make glibc
