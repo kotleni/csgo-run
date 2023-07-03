@@ -1,4 +1,3 @@
-<b>Deprecated! In new versions of CSGO, injecting custom libraries no longer works.</b>
 <br><br>
 <i>Attention! This project was developed for educational purposes. Don't use it to inject cheats online.<br>I take no responsibility for possible VAC bans.</i>
 
