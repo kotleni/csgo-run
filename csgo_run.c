@@ -38,6 +38,8 @@ typedef struct {
   int delay;
 } InjectConfig;
 
+FILE* logFile;
+
 void* inject(InjectConfig* cfg) {
   sleep(cfg->delay);
   printf("Injecting %s\n", cfg->libpath);
@@ -65,6 +67,22 @@ void parse_arguments(int argc, char *argv[], Arguments* arguments) {
 }
 
 int main(int argc, char *argv[]) {
+  logFile = fopen("csgo_run.log", "w");
+
+  // Dump args to file
+  for (int i = 0; i < argc; i++) {
+    fprintf(logFile, "Argument %d: %s\n", i, argv[i]);
+  }
+
+  // Dump env vars to file
+  FILE* envProc = popen("env", "r");
+  char output[128];
+  while (fgets(output, sizeof(output), envProc) != NULL) {
+    fprintf(logFile, "%s", output);
+  }
+
+  fclose(logFile);
+
   Arguments* arguments = (Arguments*) malloc(sizeof(Arguments));
   arguments->injectLib = NULL; // -inj <lib>
   arguments->injectDelay = 0;  // -injdelay <secs>
