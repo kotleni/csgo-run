@@ -17,7 +17,17 @@ for apple cpu:
 ## Linux (Ubuntu)
 1. Open terminal
 2. Execute this commands in terminal one by one
-```apt install gcc
+```apt install gcc make
+git clone https://github.com/kotleni/csgo-run
+cd csgo-run
+```
+3. Start building ```make linux```
+4. Done
+
+## Linux (Arch)
+1. Open terminal
+2. Execute this commands in terminal one by one
+```pacman -Sy gcc make glibc
 git clone https://github.com/kotleni/csgo-run
 cd csgo-run
 ```
